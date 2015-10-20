@@ -1,0 +1,19 @@
+.table-wrapper {
+  width: 400px; /* set it to actual width you need */
+}
+
+.table-fixed {
+  float: left;
+  width: 25%;
+}
+
+.table-scroll {
+  float: right;
+  overflow-x: scroll;
+  width: 75%;
+}
+
+.table-wrapper th,
+.table-wrapper td {
+  white-space: nowrap;
+}
